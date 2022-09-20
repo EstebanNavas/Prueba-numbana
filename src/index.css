@@ -162,7 +162,7 @@ header .cart span{
 
 }
 
-.button button{
+.button a button{
     background-color: rgb(8, 74, 140);
     max-width: 250px;
     width: 100%;
@@ -178,11 +178,11 @@ header .cart span{
 
 .carritos{
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 200px;
     width: 100vh;
-    border: 2px solid black;
+    border: 1px solid black;
     position: absolute;
-    /* background-color: rgb(182, 190, 187); */
+    border-radius: 40px;
 }
 
 .carrito h2{

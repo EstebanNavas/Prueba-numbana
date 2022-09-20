@@ -32,7 +32,10 @@ const Home =() =>{
                           <p className='price'>Precio ${product.precio} </p>
                           </div>
                           <div className='button'>
+                            <a href='/shoppingCart'>
                             <button className='btn'>añadir al carrito</button>
+
+                            </a>
                           </div>
                     
                         </div>
