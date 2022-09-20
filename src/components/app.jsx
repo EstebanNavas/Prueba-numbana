@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './home/Home'
-import ShoppingCard from './shoppingCard/ShoppingCard'
+import ShoppingCart from './shoppingCart/ShoppingCart'
 import 'boxicons'
 function App(){
     return(
@@ -8,7 +8,7 @@ function App(){
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home></Home>}></Route>
-                    <Route path="/shoppingCard" element={<ShoppingCard></ShoppingCard>}></Route>
+                    <Route path="/shoppingCart" element={<ShoppingCart></ShoppingCart>}></Route>
                 </Routes>
             
             </BrowserRouter>

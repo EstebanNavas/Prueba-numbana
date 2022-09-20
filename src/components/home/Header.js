@@ -7,7 +7,7 @@ const Header = ()=>{
                 <div>
                     <ul>
                         <li>
-                        <a href='#'>PRODUCTOS</a> 
+                        <a href='/'>PRODUCTOS</a> 
                         </li>
                         <li>
                            <a href='#'>ORDENAR POR</a> 
@@ -17,7 +17,10 @@ const Header = ()=>{
                 
             
                 <div className='cart'>
+                    <a href='/shoppingCart'>
                     <box-icon name="cart"></box-icon>
+                    </a>
+                    
                 <span className='itemTotal'>0</span>
                 </div>
             </div>

@@ -11,11 +11,33 @@ const Home =() =>{
     return(
         <>
               <Header/>
+            <h1 className='title'>PRODUCTOS</h1>
+        
           {products !== null ? (
               products.map( product =>(
-                  <div key={product.id}>
-                    <p>{product.nombre} </p>
-                    <img src={product.banner} alt=""></img>
+                <div className='productos'> 
+
+                   <div className='producto'>
+
+                       <div className='producto_image'>
+                        <img src={product.banner} alt=""></img>
+                       </div>
+
+                        <div className='producto_resumen'>
+
+                          <div key={product.id}>
+                          <h1>{product.nombre}</h1>
+                          <p>Tipo de servicio: {product.tipo_servicio} </p>
+                          <p> Calificacion {product.calificacion} </p>
+                          <p className='price'>Precio ${product.precio} </p>
+                          </div>
+                          <div className='button'>
+                            <button className='btn'>añadir al carrito</button>
+                          </div>
+                    
+                        </div>
+                    </div>
+
                 </div>
                 
             ))
